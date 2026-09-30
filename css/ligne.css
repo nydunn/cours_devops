@@ -57,3 +57,13 @@ p {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
   border: 1px solid #66bb6a;
 }
+
+/* Amélioration menu - Commit 2 */
+.menu a {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.menu a:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
