@@ -106,3 +106,9 @@ p {
   border: none;
   cursor: pointer;
 }
+
+/* Style copyright - Commit 1 */
+.copyright {
+  color: #7f8c8d;
+  font-family: monospace;
+}
