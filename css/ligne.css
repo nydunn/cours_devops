@@ -107,6 +107,7 @@ p {
   cursor: pointer;
 }
 
+
 /* Style copyright - Commit 1 */
 .copyright {
   color: #7f8c8d;
@@ -124,4 +125,26 @@ p {
   font-size: 0.8rem;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+
+/* Style de la classe menu */
+.menu {
+  background-color: #81c784; /* Vert pâle */
+  color: #ffffff;            /* Écriture en blanc */
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.menu a:hover {
+  text-decoration: underline;
 }
