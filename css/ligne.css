@@ -125,3 +125,67 @@ p {
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
+
+/* ==============================
+   PAGE GROOT
+   ============================== */
+
+.groot-page {
+    max-width: 850px;
+}
+
+.groot-card {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    margin: 35px auto;
+
+    padding: 25px;
+
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 14px;
+
+    text-align: left;
+}
+
+.groot-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70px;
+    height: 70px;
+
+    background: #166534;
+    border-radius: 50%;
+
+    font-size: 32px;
+}
+
+.groot-card h2 {
+    margin-bottom: 8px;
+    color: #166534;
+}
+
+.groot-card p {
+    color: #4b5563;
+    line-height: 1.6;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.menu a {
+    color: #374151;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.menu a:hover {
+    color: #2563eb;
+}
