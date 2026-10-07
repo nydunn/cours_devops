@@ -1,11 +1,19 @@
-# TD05 — Rebase interactif et Squash
+BOUCKITA NGOMA Moun Giscard
+BECU Gabin
 
-## Historique avant le squash
+# TD06 - TP CONFLITS, REBASE & CODE REVIEW
 
-Voici l'historique de la branche `nouvelle-page` avant le rebase interactif :
+||Capture d'écran du graph Git Final||
 
-![image](https://github.com/user-attachments/assets/fa36778d-b8c8-4bce-a474-30648dc35308)
+![image](https://github.com/nydunn/cours_devops/issues/3#issuecomment-6038735983)
 
-Voici l'historique après le rebase interactif 
+##Q1. 
+git push force priorisera ton dépot local et supprimera tous les commits qui ont été fait depuis le dernier pull.
+git push --force-with-lease est plus sécurisé, il vérifie d'abord qu'il n'y a pas de nouveaux commits et dans le cas où il y'en a il refuse de push pour éviter d'écraser le travail des autres developpeurs. Elle est indispensable pour éviter d'écraser le travail des collaborateurs dans le cas où il y'a non conccertation
 
-![image](https://github.com/user-attachments/assets/f3c70986-7901-4fd7-9455-09f4fa0290a8)
+##Q2.
+rebase facilite la lisibilité de l'historique en replaçant les commits de notre branche au dessus de ceux de la branche principale sans créer un commit de fusion comme avec git merge.  
+
+##Q3. 
+L'interêt est d'eliminer les commits temporaires, faire gagner du temps au viewer, de rendre l'historique plus facile à exploiter dans une pipeline CI/CD
+ 
