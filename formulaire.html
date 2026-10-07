@@ -10,6 +10,7 @@
     <div class="form-group">
       <label for="password">Mot de passe</label>
       <input type="password" id="password" required>
+      <span id="feedback"></span>
     </div>
 
     <button type="submit" id="submitBtn" disabled>S'inscrire</button>
@@ -23,11 +24,21 @@
     }
 
     const inputPassword = document.getElementById('password');
+    const feedback = document.getElementById('feedback');
+    const submitBtn = document.getElementById('submitBtn');
 
     inputPassword.addEventListener('input', (e) => {
       const estValide = validerMotDePasse(e.target.value);
+
+      if (estValide) {
+        feedback.textContent = "Mot de passe valide";
+        submitBtn.disabled = false;
+      } else {
+        feedback.textContent = "Mot de passe trop faible";
+        submitBtn.disabled = true;
+      }
     });
   </script>
 
 </body>
-</html>
+</html>	
