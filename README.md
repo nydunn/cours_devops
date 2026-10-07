@@ -5,8 +5,7 @@ BECU Gabin
 
 ||Capture d'écran du graph Git Final||
 
-![image](https://github.com/nydunn/cours_devops/issues/3#issuecomment-6038735983)
-
+![image](https://github.com/user-attachments/assets/da43e7bc-926e-46ff-9b3c-35aa0a360b36)
 ##Q1. 
 git push force priorisera ton dépot local et supprimera tous les commits qui ont été fait depuis le dernier pull.
 git push --force-with-lease est plus sécurisé, il vérifie d'abord qu'il n'y a pas de nouveaux commits et dans le cas où il y'en a il refuse de push pour éviter d'écraser le travail des autres developpeurs. Elle est indispensable pour éviter d'écraser le travail des collaborateurs dans le cas où il y'a non conccertation
