@@ -189,3 +189,17 @@ p {
 .menu a:hover {
     color: #2563eb;
 }
+.groot-page {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.groot-page h1 {
+    color: #166534;
+    margin-bottom: 20px;
+}
+
+.groot-page p {
+    margin-bottom: 15px;
+    color: #555;
+}
